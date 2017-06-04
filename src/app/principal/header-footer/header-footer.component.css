@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
+.navbar-fixed-top{
+    background: #e6ffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e6ffff, #e6ffff, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e6ffff, #e6ffff, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e6ffff, #e6ffff, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e6ffff, #e6ffff, white); /* Standard syntax */
+    border: none;
+    color: #808080;
+    height: 80px;
+}
+
+.navbar-fixed-bottom{
+    background: #e6ffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white,#e6ffff, #e6ffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white,#e6ffff, #e6ffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white,#e6ffff, #e6ffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white,#e6ffff, #e6ffff); /* Standard syntax */
+    
+}
+
+.navbar-nav li a:hover {
+    color: #00cccc;
+    font-weight: bold;
+}
+
+.logo{
+    width: 200px;
+}
+
+img a:hover{
+    color: #00cccc;
+}
+
+.footer{
+    width: 40%;
+}

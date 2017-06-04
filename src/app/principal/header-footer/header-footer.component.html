@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a [routerLink]="['/']" [routerLinkActive]="['is-active']" class="navbar-brand"><img class="logo" src="./assets/header.png"></a>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+      <li><a [routerLink]="['about']">Sobre mi</a></li>
+      <li><a [routerLink]="['estudios-experiencia']">Linea</a></li>
+      <li><a [routerLink]="['portafolio']">Trabajos</a></li>
+      <li><a [routerLink]="['contacto']">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=""><img class="footer" src="./assets/footer.png"></a>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+      <li><a href="https://www.linkedin.com/in/alejandrapedroza"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/ale1900"><i class="fa fa-github"></i></a></li>
+    </ul>
+  </div>
+</nav>

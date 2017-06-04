@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+.container-fluid{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 150px;
+    margin-right: 90px;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    color: #00cccc;
+}
+
+.glyphicon{
+    color: #d9d9d9;
+}
+
+.panel.panel-default{
+    border-radius: 0;
+    border: none;
+    box-shadow: 3px 3px 3px #d9d9d9;
+}
+
+.panel-heading{
+  font-family: 'Quicksand', sans-serif;
+  background: #e6ffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,#e6ffff, white , #e6ffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,#e6ffff, white, #e6ffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,#e6ffff, white, #e6ffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,#e6ffff, white , #e6ffff); /* Standard syntax */
+}
+
+#fade{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

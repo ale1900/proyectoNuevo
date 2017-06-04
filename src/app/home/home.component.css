@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+.imagen {
+    background-image: url(/assets/try.png);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen1 {
+    background-image: url(/assets/try2.png);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen2 {
+    background-image: url(/assets/try3.png);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.space{
+    height: 400px;
+    background: white;
+    font-size:24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron{
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+
